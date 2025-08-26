@@ -1,0 +1,80 @@
+.landing-container {
+  font-family: 'Arial', sans-serif;
+  color: #2e3a2c;
+  background-color: #f7fff2;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #d6f5d6;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subheadline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.signup-form input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #a4caa3;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features-section, .testimonial-section, .cta-section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.cta-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cta-section ul li {
+  margin: 0.5rem 0;
+}
+
+.footer {
+  background-color: #c2e7c2;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
