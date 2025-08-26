@@ -14,6 +14,3 @@ Create a simple IoT + AI platform that:
 - React (web) or React Native (mobile)
 - Simple rule-based AI for watering advice
 
-## 🗓️ Week 2 Goal
-- Wire and code the ESP32
-- Send data to the backend via HTTP or MQTT
